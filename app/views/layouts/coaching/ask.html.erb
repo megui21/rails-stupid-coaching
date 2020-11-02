@@ -1,8 +1,7 @@
-<h1>CoachingController#ask</h1>
-<p>Find me in app/views/coaching_controller/ask.html.erb</p>
-
-<form action ="/answer">
-  <label for="question">Speak to your coach</label>
-  <input type="text" id="question" name="question" placeholder="what time is it?">
-  <input type="submit" value="go on!">
+<form class="form" action="/answer" method="get">
+    <p class="subheader">Ask your coach anything:</p>
+    <div class="input-button">
+        <input class="input" type="text" name="question">
+        <input class="button" type="submit" value="Ask">
+    </div>
 </form>
